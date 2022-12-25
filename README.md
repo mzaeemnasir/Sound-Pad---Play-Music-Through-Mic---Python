@@ -12,7 +12,7 @@
 - Run the script (`python main.py`)
 
 
-# Expecting EROOR 
+# Expecting Error
 - pygame.error: Failed loading libmpg123-0.dll: The specified module could not be found.
 
 If you are using Python 3.8+, you need to install the latest version of pygame. You can do this by running the following command in your terminal:
