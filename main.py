@@ -20,11 +20,9 @@ pygame.init()
 
 push_to_talk = "v"  # Push to Talk Button
 
-# Getting the microphone device
-mic_device = pygame.mixer.get_init()
+mic_device = pygame.mixer.get_init()  # Initializing Microphone Device
 
-# Setting the volume to 100%
-pygame.mixer.music.set_volume(0.99)
+pygame.mixer.music.set_volume(0.99)  # Setting volume to 100%
 
 
 # Step 2: Defining Functions
@@ -52,9 +50,7 @@ def stop_sound():
 
 
 # main Loop
-
 while True:
-    # When keyboard key is pressed it will press and hold key (V) after sound is will be released
     if keyboard.is_pressed("F5"):
         play_sound(sounds["muda_muda"])
 
